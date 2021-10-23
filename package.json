@@ -1,0 +1,13 @@
+{
+  "name": "duckduckgo",
+  "version": "1.0.0",
+  "scripts": {
+    "client:start": "(cd client && npm run start)",
+    "server:start": "(cd server && npm run start)",
+    "server:dev": "(cd server && npm run dev)",
+    "build": "(cd client && npm run build)",
+    "postbuild": "mv ./client/build/* ./server/public"
+  },
+  "author": "",
+  "license": "ISC"
+}
