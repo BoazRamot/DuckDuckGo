@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const express = require('express');
 const router = express.Router({ mergeParams: true });
-const FILE_PATH = './public/pastQueries.log';
+const FILE_PATH = './pastQueries.log';
 
 const log = createWriteStream(FILE_PATH, { flags: 'a', start: 0 });
 
